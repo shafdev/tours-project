@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+:root{
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.tour{
+  width: 70vw;
+  max-width: 45rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-self: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding:1.7rem;
+  box-shadow: var(--light-shadow);
+}
+img{
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.less-more{
+  cursor: pointer;
+  /* background: transparent;
+  background-color: transparent; */
+  /* border: none;
+  display: flex; */
+
+}
+
+p > button{
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  color: aqua;
+}
+
+.title_and_price{
+  /* color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+footer{
+  padding: 2rem;
+}
